@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>W01: Programming Task</title>
+</head>
+
+<body>
+  <h1>js-operators</h1>
+  <h2>Edwards Lee</h2>
+  <p>All the work will be displayed in the console window of the browser.
+    <br>To view the console in the browser, use Inspect -> Console Panel.
+  </p>
+
+  <!-- <p>y = 5, calculate x = y + 2:</p>  #addition -->
+  <!-- <p>y = 3, calculate x = y * 2:</p> #mulitplication -->
+  <!-- <p>y = 3, calculate x = y - 2:</p> #subraction -->
+  <!-- <p>y = 3, calculate x = y - 2:</p> #subraction -->
+  <!-- <p>The + operator concatenates (adds) strings:</p> #concat -->
+  <!-- <p>x = 10 and y = 5, calculate x /= y:</p> #Division and variable assignment -->
+  <!-- <p>x = 10 and y = 3, calculate x += y:</p> #increment by 3 to x (existign value) -->
+  <!-- <p>Assign 5 to x, and display the value of the comparison (x == 8):</p> #Compare two values for equality -->
+  <!-- <p>Assign 5 to x, and display the value of the comparison (x < 8).</p> #Compares two values if not equal -->
+  <!-- <p>The && operator returns true if both expressions are true, otherwise false:</p> #Less than and Greater than -->
+
+<p id="demo"></p>
+
+
+
+<script src="js-operators.js"></script>
+
+</body>
+</html>
+
+
+
+<!-- // These would also be true with a double equals
+3 === 3.0; // true
+"yes" === "yes"; // true
+null === null; // true
+false === false; // true
+
+42 === "42"; // false
+"hello" === "Hello"; // false
+true === 1; // false
+0 === null; // false
+"" === null; // false
+null === undefined; // false
+//note the difference in a double equal comparison
+42 == "42"; // true...the string "42" gets coerced into the number 42
+"hello" == "Hello"; // false...are you surprised at this one?
+1 == true; // true...the boolean value true gets coerced into the number 1
+null == undefined; //  true
+10 < 11; // true
+42 > "42"; // false
+43 > "42"; // true!  what is going on?
+"a" < "b"; // true
+// array example
+var x = [1, 2, 3];
+
+// assignment is by reference-copy, so
+// y references the *same* array as x,
+// not another copy of it.
+var y = x;
+
+y === x; // true...both variables are bound to the exact same array.
+y === [1, 2, 3]; // false...it might look the same, but this is NOT the same array that y is bound to.
+x === [1, 2, 3]; // false
+y == [1, 2, 3]; // false...doesn't work with double equal either :(
+
+#use triple equals (strict equality) -->
+
+
+
+<!-- Manual Coercion... changing data type manually -->
+<!-- HTML
+<label for="age">Enter your Age</label>
+<input id="age" />
+// get age from input
+const age = document.getElementById("age").value; // assume 21 was entered
+// add 10 years
+const agePlus10 = age + 10;
+console.log(agePlus10); // would give something like 2110 (21 + 10)
+// get age from input
+const age = document.getElementById("age").value; // assume 21 was entered
+// add 10 years
+const agePlus10 = parseInt(age) + 10;
+console.log(agePlus10); // success! 31 -->
