@@ -20,9 +20,9 @@ const imageElement = document.querySelector('img');
 
 /* Step 4 - Adding Content */
 nameElement.innerHTML = `<strong>${fullname}</strong>`;
-yearElement.textContent = `<strong>${currentYear}</strong>`;
+yearElement.innerHTML = `<strong>${currentYear}</strong>`;
 imageElement.setAttribute("src", profilePicture);
-// imageElement.setAttribute = `<strong>"Profile Image of ${profilePicture}"</strong.`;
+imageElement.setAttribute = `<strong>"Profile Image of ${profilePicture}"</strong.`;
 
 
 
